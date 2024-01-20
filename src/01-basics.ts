@@ -5,6 +5,17 @@ interface Friend {
     age: number
 }
 
+interface ContactInfo {
+    email: string;
+    extension: number;
+}
+
+interface Colleague {
+    name: string;
+    department: string;
+    contact: ContactInfo;
+}
+
 const friend1 = {
     name: "Paul Fleming",
     phone: "087-12345",
